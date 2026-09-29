@@ -1,0 +1,21 @@
+    ,importance
+congestion,0.3974019
+distance_from_origin_km,0.09691809
+dwell_time_min,0.09162967
+stations_done,0.07134729
+sched_sin,0.054929648
+sched_cos,0.05093164
+delay_lag2,0.02574536
+current_delay_min,0.023674807
+rain_mm,0.02251753
+mean_delay_so_far,0.021215297
+preceding_delay_min,0.02015137
+delay_lag1,0.017989242
+scheduled_travel_min,0.017609892
+delay_trend2,0.01411421
+delay_change,0.013068044
+cong_lag1,0.013026466
+speed_kmph,0.012607331
+distance_to_next_km,0.012535295
+weekday,0.011537242
+month,0.0110496795

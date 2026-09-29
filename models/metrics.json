@@ -1,0 +1,49 @@
+{
+  "data_source": "SYNTHETIC",
+  "target": "change in delay (target_delay_min - current_delay_min); next delay = current + predicted change, floored at 0",
+  "n_journeys_total": 500,
+  "n_samples_labelled": 10000,
+  "n_train_journeys": 340,
+  "n_val_journeys": 60,
+  "n_test_journeys": 100,
+  "test_date_range": [
+    "2026-02-05",
+    "2026-05-15"
+  ],
+  "test_rows_by_month": {
+    "2": 480,
+    "3": 620,
+    "4": 600,
+    "5": 300
+  },
+  "n_test_samples": 2000,
+  "xgboost": {
+    "mae": 1.210476058708242,
+    "rmse": 1.5771330635163474,
+    "r2": 0.9886423727079754,
+    "within_2min_pct": 79.60000000000001
+  },
+  "persistence_baseline": {
+    "mae": 2.0705,
+    "rmse": 2.693417902962702,
+    "r2": 0.9668748064198698,
+    "within_2min_pct": 63.800000000000004
+  },
+  "xgboost_change_only": {
+    "mae": 1.210476058708242,
+    "rmse": 1.5771330635163474,
+    "r2": 0.42032514919694197,
+    "within_2min_pct": 79.60000000000001
+  },
+  "model_type": "XGBRegressor",
+  "trained_by": "preserved original model",
+  "hyperparameters": {
+    "colsample_bytree": null,
+    "learning_rate": null,
+    "max_depth": null,
+    "min_child_weight": null,
+    "n_estimators": null,
+    "reg_lambda": null,
+    "subsample": null
+  }
+}
